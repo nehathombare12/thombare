@@ -1,0 +1,130 @@
+<html>
+<head>
+<style>
+*{
+   margin:0;
+   padding:0;
+   font-family:Century Gothic;
+ }
+
+.abc{background-color:black;width:600px;height:670px;position:absolute;left:30%;top:14%;}
+.abc{ background: rgba(0,0,0,.5); 
+}
+.abc h1{ position: absolute;
+font-size: 40px;
+color: #FFF;
+text-align: center;
+padding: 5px;
+width: 580px;
+}
+.abc input:hover{background-color:yellow;}
+header{
+       background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("background.jpg");
+        height:100vh;
+        background-size:cover;
+        background-position:center;
+      }
+ul{
+   float:right;
+   list-style-type:none;
+    margin-top:25px;
+   }
+ul li{
+      display:inline-block;
+     }
+ul li a{
+        text-decoration:none;
+        color:#fff;
+        padding:5px 20px;
+        border:1px solid transparent;
+        transition:0.6s ease;
+       }
+ul li a:hover{
+               background-color:#fff;
+               color:#000;
+               }
+.main{
+      max-width:1800px;
+       margin:auto;
+     }
+ul li.active a{background-color:#fff;
+               color:#000;
+               }
+
+.title{
+        position:absolute;
+         top:50%;
+        left:50%;
+         transform:translate(-50%,-50%);
+      }
+.title h1{
+           color:#fff;
+            font-size:70px; }
+          }
+.button{ position:absolute;
+         top:96%;
+        left:50%;
+         transform:translate(-50%,-50%);
+        }
+.btn{
+      border:1px solid #fff;
+       padding:6px 10px;
+      color:#fff;
+      text-decoration:none;
+      transition:0.6s ease;}
+
+.btn:hover{background-color:#fff;
+               color:#000;  
+          }
+</style>
+</head>
+<body>
+div{border-radius:100px;}
+<header>
+   <div class="main">
+    </div>
+     <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="a.html">About</a></li>
+        <li><a href="p.html">Products</a></li>   
+        <li  class="active"><a href="f2.html">Feedback</a></li>
+        <li><a href="c.html">Contact Us</a></li> 
+     </ul> 
+   </div>
+ 
+<div class="abc">
+<hr color="yellow">
+&nbsp<h1><font color="white">Feedback</h1><br>
+&nbsp<br>
+<br>&nbsp<br>&nbsp<br>&nbsp<h2>&nbsp&nbsp<font color="white">Name: <input type="textbox" style="font-size:16pt;" placeholder="first name">
+ <input type="textbox" style="font-size:16pt;" placeholder="Last name"><br>
+<br>&nbsp
+Contact Number:<input type="text"size="10" maxlength="10" style="font-size:16pt;" placeholder="Contact"><p>
+&nbsp<br>
+&nbsp&nbspEmail id:<input type="text" style="font-size:16pt;" placeholder="enter mail address"> @
+<select>
+<option style="font-size:16pt;"><h3>gmail.com<h3></option>
+<option style="font-size:16pt;"><h3>yahoo.com</h3></option>
+<option style="font-size:16pt;"><h3>rediff.com</h3></option>
+</select>
+<br>
+&nbsp<h3>&nbsp&nbsp&nbsp*Overall Experience with our service*</h3><br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+Amazing <input type="checkbox"  class="default">
+&nbsp&nbsp&nbsp&nbspGood <input type="checkbox"  class="default">
+&nbsp&nbsp&nbsp&nbspFair <input type="checkbox"  class="default">
+<br>
+&nbsp<h3>&nbsp&nbsp&nbsp&nbspQ. How satisfied with our service? 
+<br>
+<br> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp60% <input type="checkbox"  class="default">
+&nbsp&nbsp80% <input type="checkbox"  class="default">
+&nbsp&nbsp99% <input type="checkbox"  class="default"><p>&nbsp&nbsp
+<br>
+&nbsp&nbsp&nbsp
+   <div class="button">
+     &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="submit.html" class="btn">Submit</a>
+   </div>
+</div>
+</body>
+</html>
